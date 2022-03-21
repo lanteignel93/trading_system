@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../OrderBook/PriceUpdate.h
+string.h
+-
+
+/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBook/OrderBook.cpp
+OrderBook.h
+/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBook/OrderBook.h
+
+/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBook/OrderBook.h
+map
+-
+iostream
+-
+boost/optional.hpp
+-
+PriceUpdate.h
+-
+

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="OrderBookTest"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\MDParser\;CMake Files\OrderBook\;CMake Files\OrderBookTests\;CMake Files\OrderBookTests\lib\;CMake Files\OrderBookTests\lib\googletest\;CMake Files\OrderBookTests\lib\googletest\cmake\;CMake Files\OrderBookTests\tests\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/cmake-build-debug/OrderBookTests"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/laure/OneDrive\ -\ The\ University\ of\ Chicago/2021\ -\ (5)\ Spring\ Semester/FINM\ 32700\ -\ Advance\ Computing\ for\ Finance/final_project/cmake-build-debug/OrderBookTests/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/laure/OneDrive\ -\ The\ University\ of\ Chicago/2021\ -\ (5)\ Spring\ Semester/FINM\ 32700\ -\ Advance\ Computing\ for\ Finance/final_project/cmake-build-debug/OrderBookTests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/laure/OneDrive\ -\ The\ University\ of\ Chicago/2021\ -\ (5)\ Spring\ Semester/FINM\ 32700\ -\ Advance\ Computing\ for\ Finance/final_project/cmake-build-debug/OrderBookTests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/laure/OneDrive\ -\ The\ University\ of\ Chicago/2021\ -\ (5)\ Spring\ Semester/FINM\ 32700\ -\ Advance\ Computing\ for\ Finance/final_project/cmake-build-debug/OrderBookTests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/cmake-build-debug/OrderBookTests/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/MDParser"/>
+					<Add directory="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBook"/>
+					<Add directory="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBookTests/lib/googletest/include"/>
+					<Add directory="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBookTests/lib/googletest"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/laure/OneDrive\ -\ The\ University\ of\ Chicago/2021\ -\ (5)\ Spring\ Semester/FINM\ 32700\ -\ Advance\ Computing\ for\ Finance/final_project/cmake-build-debug/OrderBookTests/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/laure/OneDrive\ -\ The\ University\ of\ Chicago/2021\ -\ (5)\ Spring\ Semester/FINM\ 32700\ -\ Advance\ Computing\ for\ Finance/final_project/cmake-build-debug/OrderBookTests/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/laure/OneDrive\ -\ The\ University\ of\ Chicago/2021\ -\ (5)\ Spring\ Semester/FINM\ 32700\ -\ Advance\ Computing\ for\ Finance/final_project/cmake-build-debug/OrderBookTests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/laure/OneDrive\ -\ The\ University\ of\ Chicago/2021\ -\ (5)\ Spring\ Semester/FINM\ 32700\ -\ Advance\ Computing\ for\ Finance/final_project/cmake-build-debug/OrderBookTests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/cmake-build-debug/OrderBookTests/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/MDParser"/>
+					<Add directory="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBook"/>
+					<Add directory="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBookTests/lib/googletest/include"/>
+					<Add directory="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBookTests/lib/googletest"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/laure/OneDrive\ -\ The\ University\ of\ Chicago/2021\ -\ (5)\ Spring\ Semester/FINM\ 32700\ -\ Advance\ Computing\ for\ Finance/final_project/cmake-build-debug/OrderBookTests/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/laure/OneDrive\ -\ The\ University\ of\ Chicago/2021\ -\ (5)\ Spring\ Semester/FINM\ 32700\ -\ Advance\ Computing\ for\ Finance/final_project/cmake-build-debug/OrderBookTests/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/laure/OneDrive\ -\ The\ University\ of\ Chicago/2021\ -\ (5)\ Spring\ Semester/FINM\ 32700\ -\ Advance\ Computing\ for\ Finance/final_project/cmake-build-debug/OrderBookTests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/laure/OneDrive\ -\ The\ University\ of\ Chicago/2021\ -\ (5)\ Spring\ Semester/FINM\ 32700\ -\ Advance\ Computing\ for\ Finance/final_project/cmake-build-debug/OrderBookTests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/cmake-build-debug/OrderBookTests/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/MDParser"/>
+					<Add directory="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBook"/>
+					<Add directory="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBookTests/lib/googletest/include"/>
+					<Add directory="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBookTests/lib/googletest"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/laure/OneDrive\ -\ The\ University\ of\ Chicago/2021\ -\ (5)\ Spring\ Semester/FINM\ 32700\ -\ Advance\ Computing\ for\ Finance/final_project/cmake-build-debug/OrderBookTests/lib/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/laure/OneDrive\ -\ The\ University\ of\ Chicago/2021\ -\ (5)\ Spring\ Semester/FINM\ 32700\ -\ Advance\ Computing\ for\ Finance/final_project/cmake-build-debug/OrderBookTests/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/laure/OneDrive\ -\ The\ University\ of\ Chicago/2021\ -\ (5)\ Spring\ Semester/FINM\ 32700\ -\ Advance\ Computing\ for\ Finance/final_project/cmake-build-debug/OrderBookTests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/laure/OneDrive\ -\ The\ University\ of\ Chicago/2021\ -\ (5)\ Spring\ Semester/FINM\ 32700\ -\ Advance\ Computing\ for\ Finance/final_project/cmake-build-debug/OrderBookTests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/cmake-build-debug/OrderBookTests/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/MDParser"/>
+					<Add directory="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBook"/>
+					<Add directory="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBookTests/lib/googletest/include"/>
+					<Add directory="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBookTests/lib/googletest"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/laure/OneDrive\ -\ The\ University\ of\ Chicago/2021\ -\ (5)\ Spring\ Semester/FINM\ 32700\ -\ Advance\ Computing\ for\ Finance/final_project/cmake-build-debug/OrderBookTests/lib/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/laure/OneDrive\ -\ The\ University\ of\ Chicago/2021\ -\ (5)\ Spring\ Semester/FINM\ 32700\ -\ Advance\ Computing\ for\ Finance/final_project/cmake-build-debug/OrderBookTests/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/laure/OneDrive\ -\ The\ University\ of\ Chicago/2021\ -\ (5)\ Spring\ Semester/FINM\ 32700\ -\ Advance\ Computing\ for\ Finance/final_project/cmake-build-debug/OrderBookTests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/laure/OneDrive\ -\ The\ University\ of\ Chicago/2021\ -\ (5)\ Spring\ Semester/FINM\ 32700\ -\ Advance\ Computing\ for\ Finance/final_project/cmake-build-debug/OrderBookTests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RunTests">
+				<Option output="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/cmake-build-debug/OrderBookTests/tests/RunTests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/cmake-build-debug/OrderBookTests/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/MDParser"/>
+					<Add directory="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBook"/>
+					<Add directory="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBookTests/tests/$gtest_SOURCE_DIR"/>
+					<Add directory="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBookTests/lib/googletest/include"/>
+					<Add directory="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBookTests/lib/googletest"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/laure/OneDrive\ -\ The\ University\ of\ Chicago/2021\ -\ (5)\ Spring\ Semester/FINM\ 32700\ -\ Advance\ Computing\ for\ Finance/final_project/cmake-build-debug/OrderBookTests/tests/Makefile&quot;  VERBOSE=1 RunTests"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/laure/OneDrive\ -\ The\ University\ of\ Chicago/2021\ -\ (5)\ Spring\ Semester/FINM\ 32700\ -\ Advance\ Computing\ for\ Finance/final_project/cmake-build-debug/OrderBookTests/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/laure/OneDrive\ -\ The\ University\ of\ Chicago/2021\ -\ (5)\ Spring\ Semester/FINM\ 32700\ -\ Advance\ Computing\ for\ Finance/final_project/cmake-build-debug/OrderBookTests/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/laure/OneDrive\ -\ The\ University\ of\ Chicago/2021\ -\ (5)\ Spring\ Semester/FINM\ 32700\ -\ Advance\ Computing\ for\ Finance/final_project/cmake-build-debug/OrderBookTests/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RunTests/fast">
+				<Option output="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/cmake-build-debug/OrderBookTests/tests/RunTests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/cmake-build-debug/OrderBookTests/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/MDParser"/>
+					<Add directory="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBook"/>
+					<Add directory="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBookTests/tests/$gtest_SOURCE_DIR"/>
+					<Add directory="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBookTests/lib/googletest/include"/>
+					<Add directory="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBookTests/lib/googletest"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/laure/OneDrive\ -\ The\ University\ of\ Chicago/2021\ -\ (5)\ Spring\ Semester/FINM\ 32700\ -\ Advance\ Computing\ for\ Finance/final_project/cmake-build-debug/OrderBookTests/tests/Makefile&quot;  VERBOSE=1 RunTests/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/laure/OneDrive\ -\ The\ University\ of\ Chicago/2021\ -\ (5)\ Spring\ Semester/FINM\ 32700\ -\ Advance\ Computing\ for\ Finance/final_project/cmake-build-debug/OrderBookTests/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/laure/OneDrive\ -\ The\ University\ of\ Chicago/2021\ -\ (5)\ Spring\ Semester/FINM\ 32700\ -\ Advance\ Computing\ for\ Finance/final_project/cmake-build-debug/OrderBookTests/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/laure/OneDrive\ -\ The\ University\ of\ Chicago/2021\ -\ (5)\ Spring\ Semester/FINM\ 32700\ -\ Advance\ Computing\ for\ Finance/final_project/cmake-build-debug/OrderBookTests/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBookTests/lib/googletest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBookTests/lib/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBookTests/tests/orderbooktests.cpp">
+			<Option target="RunTests"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/MDParser/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\MDParser\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBook/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\OrderBook\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBookTests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\OrderBookTests\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBookTests/lib/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\OrderBookTests\lib\googletest\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBookTests/lib/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\OrderBookTests\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBookTests/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\OrderBookTests\tests\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

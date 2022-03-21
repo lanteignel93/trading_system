@@ -1,0 +1,1 @@
+/usr/bin/c++.exe  -std=gnu++11 -g  -Wl,--enable-auto-import CMakeFiles/OrderBookDemo.dir/main.cpp.o  -o OrderBookDemo.exe -Wl,--out-implib,libOrderBookDemo.dll.a -Wl,--major-image-version,0,--minor-image-version,0  OrderBook/libOrderBook.a OrderBook/libMyOrderBook.a 

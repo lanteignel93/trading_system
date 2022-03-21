@@ -1,0 +1,1 @@
+/usr/bin/c++.exe  -std=gnu++11 -g  -Wl,--enable-auto-import CMakeFiles/RunTests.dir/orderbooktests.cpp.o  -o RunTests.exe -Wl,--out-implib,libRunTests.dll.a -Wl,--major-image-version,0,--minor-image-version,0  ../../lib/libgtestd.a ../../lib/libgtest_maind.a ../../OrderBook/libOrderBook.a ../../OrderBook/libMyOrderBook.a ../../lib/libgtestd.a 

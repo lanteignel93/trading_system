@@ -1,0 +1,2 @@
+/usr/bin/ar.exe qc libMDReader.a  CMakeFiles/MDReader.dir/MDReader.cpp.o
+/usr/bin/ranlib.exe libMDReader.a

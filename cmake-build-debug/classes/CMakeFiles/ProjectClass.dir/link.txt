@@ -1,0 +1,2 @@
+/usr/bin/ar.exe qc libProjectClass.a  CMakeFiles/ProjectClass.dir/AppBase.cpp.o CMakeFiles/ProjectClass.dir/BookBuilder.cpp.o CMakeFiles/ProjectClass.dir/BookUpdate.cpp.o CMakeFiles/ProjectClass.dir/MarketSimulator.cpp.o CMakeFiles/ProjectClass.dir/MDReader.cpp.o CMakeFiles/ProjectClass.dir/Order.cpp.o CMakeFiles/ProjectClass.dir/OrderManager.cpp.o CMakeFiles/ProjectClass.dir/TradingStrategy.cpp.o CMakeFiles/ProjectClass.dir/SmartPointer.cpp.o
+/usr/bin/ranlib.exe libProjectClass.a

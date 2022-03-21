@@ -1,0 +1,2 @@
+/usr/bin/ar.exe qc libOrderBook.a  CMakeFiles/OrderBook.dir/OrderBook.cpp.o
+/usr/bin/ranlib.exe libOrderBook.a

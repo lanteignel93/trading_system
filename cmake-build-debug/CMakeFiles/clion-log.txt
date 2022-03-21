@@ -1,0 +1,31 @@
+C:\Users\laure\AppData\Local\JetBrains\CLion2020.3\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project"
+-- The C compiler identification is GNU 11.1.0
+-- The CXX compiler identification is GNU 11.1.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc - works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++.exe
+-- Check for working CXX compiler: /usr/bin/c++.exe - works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Boost: C:/boost/boost_1_76_0 (found suitable version "1.76.0", minimum required is "1.76.0")  
+-- Found Boost: C:/boost/boost_1_76_0 (found version "1.76.0")  
+CMake Warning at goog_test/lib/googletest/CMakeLists.txt:54 (project):
+  VERSION keyword not followed by a value or was followed by a value that
+  expanded to nothing.
+
+
+-- Found PythonInterp: /usr/bin/python (found version "3.8.9") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/cmake-build-debug

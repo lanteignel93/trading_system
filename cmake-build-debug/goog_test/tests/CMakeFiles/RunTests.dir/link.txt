@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/RunTests.dir/project_test.cpp.o CMakeFiles/RunTests.dir/__/__/classes/SmartPointer.cpp.o  -o RunTests.exe -Wl,--out-implib,libRunTests.dll.a -Wl,--major-image-version,0,--minor-image-version,0  ../../lib/libgtestd.a ../../lib/libgtest_maind.a ../../classes/libProjectClass.a ../../lib/libgtestd.a 

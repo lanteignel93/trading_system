@@ -1,0 +1,50 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../OrderBook/BookUpdate.h
+string.h
+-
+
+../OrderBook/PriceUpdate.h
+string.h
+-
+
+/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBook/BookUpdate.cpp
+BookUpdate.h
+/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBook/BookUpdate.h
+
+/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBook/BookUpdate.h
+string.h
+-
+
+/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBook/MyOrderBook.cpp
+MyOrderBook.h
+/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBook/MyOrderBook.h
+
+/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBook/MyOrderBook.h
+map
+-
+iostream
+-
+boost/optional.hpp
+-
+PriceUpdate.h
+-
+BookUpdate.h
+-
+unordered_map
+-
+
+/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBook/PriceUpdate.cpp
+PriceUpdate.h
+/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBook/PriceUpdate.h
+
+/cygdrive/c/Users/laure/OneDrive - The University of Chicago/2021 - (5) Spring Semester/FINM 32700 - Advance Computing for Finance/final_project/OrderBook/PriceUpdate.h
+string.h
+-
+
